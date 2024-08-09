@@ -1,0 +1,797 @@
+﻿Version     0.0
+Platform    Gen4-uLCD-43DT-P
+PlatRes     272x480
+Depends
+end
+Options
+    Genie
+    Speed                        9600
+    Checksum                     No
+    ResponseSize                 2
+    Multidrop                    No
+    Destination                  1
+    DestBank                     0
+    MainForm                     0
+    SndBuf                       0
+    ButtonDisable                No
+    SignedDigits                 No
+    MaxString                    75
+    ComPort                      0
+    ComTX1pinIdx                 0
+    ComRX1pinIdx                 0
+    FileSystem                   FATfs
+    FlashEraseOption             Optimal
+    SPIenable                    0
+    SPIsdo                       3
+    SPIsdi                       2
+    SPIsck                       1
+    ForceProgramFlash            No
+    PixxiuSDSpeed                0
+    FlashForceLT16MB             No
+end
+Form
+    Name                         Form0
+    Alias                        Form0
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+iButtonD
+    Name                         IButtonD0
+    Alias                        IButtonD0
+    BaseColorA                   0x989898
+    BaseColorB                   0x585858
+    BaseGradient                 GRAD_WAVE_HOR
+    ButtonColorA                 0xA8A8A8
+    ButtonColorB                 0x383C38
+    ButtonGradientOff            GRAD_DOWN
+    ButtonGradientOn             GRAD_UP
+    Caption                      'Sz X I'
+    CaptionColorOff              RED
+    CaptionColorOn               MAROON
+    CaptionStyle                 Yes
+    DotColorA                    0xBABABA
+    DotColorB                    0x2E2E2E
+    DotGradient                  GRAD_DOWN
+    FaceColor                    0x686C68
+    Font                         FONT3
+    FontSize                     1
+    Matrix                       -1
+    Momentary                    Yes
+    Left                         0
+    Radius                       45
+    RingColorOff                 DARKRED
+    RingColorOn                  RED
+    Top                          210
+    OnChanged                    'Report Message'
+end
+iButtonD
+    Name                         IButtonD1
+    Alias                        IButtonD1
+    BaseColorA                   0x989898
+    BaseColorB                   0x585858
+    BaseGradient                 GRAD_WAVE_HOR
+    ButtonColorA                 0xA8A8A8
+    ButtonColorB                 0x383C38
+    ButtonGradientOff            GRAD_DOWN
+    ButtonGradientOn             GRAD_UP
+    Caption                      'I X Sx'
+    CaptionColorOff              RED
+    CaptionColorOn               MAROON
+    CaptionStyle                 Yes
+    DotColorA                    0xBABABA
+    DotColorB                    0x2E2E2E
+    DotGradient                  GRAD_DOWN
+    FaceColor                    0x686C68
+    Font                         FONT3
+    FontSize                     1
+    Matrix                       -1
+    Momentary                    Yes
+    Left                         90
+    Radius                       45
+    RingColorOff                 DARKRED
+    RingColorOn                  RED
+    Top                          210
+    OnChanged                    'Report Message'
+end
+iButtonD
+    Name                         IButtonD2
+    Alias                        IButtonD2
+    BaseColorA                   0x989898
+    BaseColorB                   0x585858
+    BaseGradient                 GRAD_WAVE_HOR
+    ButtonColorA                 0xA8A8A8
+    ButtonColorB                 0x383C38
+    ButtonGradientOff            GRAD_DOWN
+    ButtonGradientOn             GRAD_UP
+    Caption                      'Sz X Sx'
+    CaptionColorOff              RED
+    CaptionColorOn               MAROON
+    CaptionStyle                 Yes
+    DotColorA                    0xBABABA
+    DotColorB                    0x2E2E2E
+    DotGradient                  GRAD_DOWN
+    FaceColor                    0x686C68
+    Font                         FONT3
+    FontSize                     1
+    Matrix                       -1
+    Momentary                    Yes
+    Left                         180
+    Radius                       45
+    RingColorOff                 DARKRED
+    RingColorOn                  RED
+    Top                          210
+    OnChanged                    'Report Message'
+end
+iButtonD
+    Name                         IButtonD3
+    Alias                        IButtonD3
+    BaseColorA                   0x989898
+    BaseColorB                   0x585858
+    BaseGradient                 GRAD_WAVE_HOR
+    ButtonColorA                 0xA8A8A8
+    ButtonColorB                 0x383C38
+    ButtonGradientOff            GRAD_DOWN
+    ButtonGradientOn             GRAD_UP
+    Caption                      'I X Sz'
+    CaptionColorOff              RED
+    CaptionColorOn               MAROON
+    CaptionStyle                 Yes
+    DotColorA                    0xBABABA
+    DotColorB                    0x2E2E2E
+    DotGradient                  GRAD_DOWN
+    FaceColor                    0x686C68
+    Font                         FONT3
+    FontSize                     1
+    Matrix                       -1
+    Momentary                    Yes
+    Left                         0
+    Radius                       45
+    RingColorOff                 DARKRED
+    RingColorOn                  RED
+    Top                          300
+    OnChanged                    'Report Message'
+end
+iButtonD
+    Name                         IButtonD4
+    Alias                        IButtonD4
+    BaseColorA                   0x989898
+    BaseColorB                   0x585858
+    BaseGradient                 GRAD_WAVE_HOR
+    ButtonColorA                 0xA8A8A8
+    ButtonColorB                 0x383C38
+    ButtonGradientOff            GRAD_DOWN
+    ButtonGradientOn             GRAD_UP
+    Caption                      'Sx X I'
+    CaptionColorOff              RED
+    CaptionColorOn               MAROON
+    CaptionStyle                 Yes
+    DotColorA                    0xBABABA
+    DotColorB                    0x2E2E2E
+    DotGradient                  GRAD_DOWN
+    FaceColor                    0x686C68
+    Font                         FONT3
+    FontSize                     1
+    Matrix                       -1
+    Momentary                    Yes
+    Left                         90
+    Radius                       45
+    RingColorOff                 DARKRED
+    RingColorOn                  RED
+    Top                          300
+    OnChanged                    'Report Message'
+end
+iButtonD
+    Name                         IButtonD5
+    Alias                        IButtonD5
+    BaseColorA                   0x989898
+    BaseColorB                   0x585858
+    BaseGradient                 GRAD_WAVE_HOR
+    ButtonColorA                 0xA8A8A8
+    ButtonColorB                 0x383C38
+    ButtonGradientOff            GRAD_DOWN
+    ButtonGradientOn             GRAD_UP
+    Caption                      'Sx X Sz'
+    CaptionColorOff              RED
+    CaptionColorOn               MAROON
+    CaptionStyle                 Yes
+    DotColorA                    0xBABABA
+    DotColorB                    0x2E2E2E
+    DotGradient                  GRAD_DOWN
+    FaceColor                    0x686C68
+    Font                         FONT3
+    FontSize                     1
+    Matrix                       -1
+    Momentary                    Yes
+    Left                         180
+    Radius                       45
+    RingColorOff                 DARKRED
+    RingColorOn                  RED
+    Top                          300
+    OnChanged                    'Report Message'
+end
+iButtonD
+    Name                         IButtonD6
+    Alias                        IButtonD6
+    BaseColorA                   0x989898
+    BaseColorB                   0x585858
+    BaseGradient                 GRAD_WAVE_HOR
+    ButtonColorA                 0xA8A8A8
+    ButtonColorB                 0x383C38
+    ButtonGradientOff            GRAD_DOWN
+    ButtonGradientOn             GRAD_UP
+    Caption                      '-Sz X Sz'
+    CaptionColorOff              RED
+    CaptionColorOn               MAROON
+    CaptionStyle                 Yes
+    DotColorA                    0xBABABA
+    DotColorB                    0x2E2E2E
+    DotGradient                  GRAD_DOWN
+    FaceColor                    0x686C68
+    Font                         FONT3
+    FontSize                     1
+    Matrix                       -1
+    Momentary                    Yes
+    Left                         0
+    Radius                       45
+    RingColorOff                 DARKRED
+    RingColorOn                  RED
+    Top                          390
+    OnChanged                    'Report Message'
+end
+iButtonD
+    Name                         IButtonD7
+    Alias                        IButtonD7
+    BaseColorA                   0x989898
+    BaseColorB                   0x585858
+    BaseGradient                 GRAD_WAVE_HOR
+    ButtonColorA                 0xA8A8A8
+    ButtonColorB                 0x383C38
+    ButtonGradientOff            GRAD_DOWN
+    ButtonGradientOn             GRAD_UP
+    Caption                      '-Sx X Sx'
+    CaptionColorOff              RED
+    CaptionColorOn               MAROON
+    CaptionStyle                 Yes
+    DotColorA                    0xBABABA
+    DotColorB                    0x2E2E2E
+    DotGradient                  GRAD_DOWN
+    FaceColor                    0x686C68
+    Font                         FONT3
+    FontSize                     1
+    Matrix                       -1
+    Momentary                    Yes
+    Left                         90
+    Radius                       45
+    RingColorOff                 DARKRED
+    RingColorOn                  RED
+    Top                          390
+    OnChanged                    'Report Message'
+end
+iButtonD
+    Name                         IButtonD8
+    Alias                        IButtonD8
+    BaseColorA                   0x989898
+    BaseColorB                   0x585858
+    BaseGradient                 GRAD_WAVE_HOR
+    ButtonColorA                 0xA8A8A8
+    ButtonColorB                 0x383C38
+    ButtonGradientOff            GRAD_DOWN
+    ButtonGradientOn             GRAD_UP
+    Caption                      '-Sy X Sy'
+    CaptionColorOff              RED
+    CaptionColorOn               MAROON
+    CaptionStyle                 Yes
+    DotColorA                    0xBABABA
+    DotColorB                    0x2E2E2E
+    DotGradient                  GRAD_DOWN
+    FaceColor                    0x686C68
+    Font                         FONT3
+    FontSize                     1
+    Matrix                       -1
+    Momentary                    Yes
+    Left                         180
+    Radius                       45
+    RingColorOff                 DARKRED
+    RingColorOn                  RED
+    Top                          390
+    OnChanged                    'Report Message'
+end
+iButtonD
+    Name                         IButtonD9
+    Alias                        IButtonD9
+    BaseColorA                   0x989898
+    BaseColorB                   0x585858
+    BaseGradient                 GRAD_WAVE_HOR
+    ButtonColorA                 0xA8A8A8
+    ButtonColorB                 0x383C38
+    ButtonGradientOff            GRAD_DOWN
+    ButtonGradientOn             GRAD_UP
+    Caption                      Setup
+    CaptionColorOff              0xB30000
+    CaptionColorOn               0xFF2929
+    CaptionStyle                 Yes
+    DotColorA                    0xBABABA
+    DotColorB                    0x2E2E2E
+    DotGradient                  GRAD_DOWN
+    FaceColor                    0x686C68
+    Font                         FONT3
+    FontSize                     1
+    Matrix                       -1
+    Momentary                    Yes
+    Left                         211
+    Radius                       30
+    RingColorOff                 0xB30000
+    RingColorOn                  0xFF2929
+    Top                          0
+    OnChanged                    Form1Activate
+end
+iLedDigit
+    Name                         ILedDigit0
+    Alias                        ILedDigit0
+    ColorActive                  WHEAT
+    ColorInactive                0x181818
+    Left                         92
+    Size                         7
+    Top                          28
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled0
+    Alias                        Userled0
+    Active                       No
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             clBtnFace
+    Bevel.InnerHighlight         clLime
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x005100
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         16
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clRed
+    PaletteEx.High2              BLACK
+    PaletteEx.Low1               0x000051
+    PaletteEx.Low2               BLACK
+    Top                          68
+    Width                        20
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled1
+    Alias                        Userled1
+    Active                       No
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             clBtnFace
+    Bevel.InnerHighlight         clLime
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x005100
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         36
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clRed
+    PaletteEx.High2              BLACK
+    PaletteEx.Low1               0x000051
+    PaletteEx.Low2               BLACK
+    Top                          68
+    Width                        20
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled2
+    Alias                        Userled2
+    Active                       No
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             clBtnFace
+    Bevel.InnerHighlight         clLime
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x005100
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         56
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clRed
+    PaletteEx.High2              BLACK
+    PaletteEx.Low1               0x000051
+    PaletteEx.Low2               BLACK
+    Top                          68
+    Width                        20
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled3
+    Alias                        Userled3
+    Active                       No
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             clBtnFace
+    Bevel.InnerHighlight         clLime
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x005100
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         16
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clRed
+    PaletteEx.High2              BLACK
+    PaletteEx.Low1               0x000051
+    PaletteEx.Low2               BLACK
+    Top                          88
+    Width                        20
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled4
+    Alias                        Userled4
+    Active                       No
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             clBtnFace
+    Bevel.InnerHighlight         clLime
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x005100
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         36
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clRed
+    PaletteEx.High2              BLACK
+    PaletteEx.Low1               0x000051
+    PaletteEx.Low2               BLACK
+    Top                          88
+    Width                        20
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled5
+    Alias                        Userled5
+    Active                       No
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             clBtnFace
+    Bevel.InnerHighlight         clLime
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x005100
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         56
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clRed
+    PaletteEx.High2              BLACK
+    PaletteEx.Low1               0x000051
+    PaletteEx.Low2               BLACK
+    Top                          88
+    Width                        20
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled6
+    Alias                        Userled6
+    Active                       No
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             clBtnFace
+    Bevel.InnerHighlight         clLime
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x005100
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         16
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clRed
+    PaletteEx.High2              BLACK
+    PaletteEx.Low1               0x000051
+    PaletteEx.Low2               BLACK
+    Top                          108
+    Width                        20
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled7
+    Alias                        Userled7
+    Active                       No
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             clBtnFace
+    Bevel.InnerHighlight         clLime
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x005100
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         36
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clRed
+    PaletteEx.High2              BLACK
+    PaletteEx.Low1               0x000051
+    PaletteEx.Low2               BLACK
+    Top                          108
+    Width                        20
+    OnChanged                    ''
+end
+UserLed
+    Name                         Userled8
+    Alias                        Userled8
+    Active                       No
+    Bevel.BorderColor            clBtnFace
+    Bevel.BorderWidth            0
+    Bevel.InnerColor             clBtnFace
+    Bevel.InnerHighlight         clLime
+    Bevel.InnerOutline           None
+    Bevel.InnerShadow            0x005100
+    Bevel.InnerSpace             1
+    Bevel.InnerStyle             None
+    Bevel.Innerwidth             1
+    Bevel.OuterColor             clBtnFace
+    Bevel.OuterHighlight         clBtnHighlight
+    Bevel.OuterOutline           Outer
+    Bevel.OuterShadow            clBtnShadow
+    Bevel.OuterSpace             0
+    Bevel.OuterStyle             Raised
+    Bevel.Outerwidth             1
+    Bevel.Visible                Yes
+    Height                       20
+    Left                         56
+    OutlineColor                 BLACK
+    OutlineWidth                 0
+    PaletteEx.High1              clRed
+    PaletteEx.High2              BLACK
+    PaletteEx.Low1               0x000051
+    PaletteEx.Low2               BLACK
+    Top                          108
+    Width                        20
+    OnChanged                    ''
+end
+Form
+    Name                         Form1
+    Alias                        Form1
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+iButtonD
+    Name                         IButtonD10
+    Alias                        IButtonD10
+    BaseColorA                   0x989898
+    BaseColorB                   0x585858
+    BaseGradient                 GRAD_WAVE_HOR
+    ButtonColorA                 0xA8A8A8
+    ButtonColorB                 0x383C38
+    ButtonGradientOff            GRAD_DOWN
+    ButtonGradientOn             GRAD_UP
+    Caption                      Jeu
+    CaptionColorOff              0xB30000
+    CaptionColorOn               0xFF2929
+    CaptionStyle                 Yes
+    DotColorA                    0xBABABA
+    DotColorB                    0x2E2E2E
+    DotGradient                  GRAD_DOWN
+    FaceColor                    0x686C68
+    Font                         FONT3
+    FontSize                     1
+    Matrix                       -1
+    Momentary                    Yes
+    Left                         211
+    Radius                       30
+    RingColorOff                 0xB30000
+    RingColorOn                  0xFF2929
+    Top                          0
+    OnChanged                    Form0Activate
+end
+iButtonD
+    Name                         IButtonD11
+    Alias                        IButtonD11
+    BaseColorA                   0x989898
+    BaseColorB                   0x585858
+    BaseGradient                 GRAD_WAVE_HOR
+    ButtonColorA                 0xA8A8A8
+    ButtonColorB                 0x383C38
+    ButtonGradientOff            GRAD_DOWN
+    ButtonGradientOn             GRAD_UP
+    Caption                      'New Game'
+    CaptionColorOff              0xB30000
+    CaptionColorOn               0xFF2929
+    CaptionStyle                 Yes
+    DotColorA                    0xBABABA
+    DotColorB                    0x2E2E2E
+    DotGradient                  GRAD_DOWN
+    FaceColor                    0x686C68
+    Font                         FONT3
+    FontSize                     1
+    Matrix                       -1
+    Momentary                    Yes
+    Left                         0
+    Radius                       47
+    RingColorOff                 0xB30000
+    RingColorOn                  0xFF2929
+    Top                          385
+    OnChanged                    'Report Message'
+end
+iButtonD
+    Name                         IButtonD12
+    Alias                        IButtonD12
+    BaseColorA                   0x989898
+    BaseColorB                   0x585858
+    BaseGradient                 GRAD_WAVE_HOR
+    ButtonColorA                 0xA8A8A8
+    ButtonColorB                 0x383C38
+    ButtonGradientOff            GRAD_DOWN
+    ButtonGradientOn             GRAD_UP
+    Caption                      RandNum
+    CaptionColorOff              0xB30000
+    CaptionColorOn               0xFF2929
+    CaptionStyle                 Yes
+    DotColorA                    0xBABABA
+    DotColorB                    0x2E2E2E
+    DotGradient                  GRAD_DOWN
+    FaceColor                    0x686C68
+    Font                         FONT3
+    FontSize                     1
+    Matrix                       -1
+    Momentary                    Yes
+    Left                         177
+    Radius                       47
+    RingColorOff                 0xB30000
+    RingColorOn                  0xFF2929
+    Top                          385
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext0
+    Alias                        Statictext0
+    Alignment                    Left
+    AutoSize                     Yes
+    Caption                      'Terminal Alice'
+    Color                        BLACK
+    Font.Color                   LIMEGREEN
+    Font.Effects                 []
+    Font.Name                    Garamond
+    Font.Size                    24
+    Font.Style                   []
+    Height                       36
+    Left                         12
+    Top                          16
+    Transparent                  Yes
+    Width                        182
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext2
+    Alias                        Statictext2
+    Alignment                    Left
+    AutoSize                     No
+    Caption                      'Num Ligne :'
+    Color                        BLACK
+    Font.Color                   LIMEGREEN
+    Font.Effects                 []
+    Font.Name                    Garamond
+    Font.Size                    24
+    Font.Style                   []
+    Height                       37
+    Left                         4
+    Top                          212
+    Transparent                  Yes
+    Width                        158
+    WordWrap                     Yes
+end
+iLedDigit
+    Name                         ILedDigit1
+    Alias                        ILedDigit1
+    ColorActive                  SPRINGGREEN
+    ColorInactive                0x181818
+    Left                         176
+    Size                         2
+    Top                          212
+    OnChanged                    ''
+end
