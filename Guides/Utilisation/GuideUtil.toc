@@ -1,0 +1,11 @@
+\babel@toc {nil}{}\relax 
+\contentsline {section}{\numberline {1}Présentation rapide du jeu}{3}{section.1}%
+\contentsline {section}{\numberline {2}Présentation de l'appareil}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Présentation matérielle}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Présentation pratique}{7}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Mise en marche des appareils}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}La Raspberry}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Les Arduino}{9}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Présentation de l'interface}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Interface de jeu}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Interface de configuration}{11}{subsection.4.2}%

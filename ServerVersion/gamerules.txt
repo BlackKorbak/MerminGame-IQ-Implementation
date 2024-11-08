@@ -1,0 +1,6 @@
+Voici les règles du jeu, elles ne sont pas complexes :
+    Mesure n : Mesure votre paire de Qubits intriquées à celle de l'autre joueur, selon l'emplacement n et vous donne un résultat, ainsi qu'un conseil de placement
+    Mark n t : Pose un jeton t sur la case n. Ce jeton peut être x ou o 
+    Circuitry : Vous affiche le circuit régissant votre partie
+    Send : Valide vos entrées et vous donne le résultat de la partie
+    Help : Affiche ce menu de nouveau

@@ -1,0 +1,4 @@
+    NewGame : On génère une nouveau jeu du carré de Merminn Perez
+    Quit : C'est ici qu'on se dit au revoir
+    Help : Affiche de nouveau ce menu
+    Ping : Pong !
